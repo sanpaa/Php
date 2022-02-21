@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+li {
+    margin: 0 15px;
+}
+
+nav {
+    display: flex;  
+    justify-content: space-between ;
+    margin: auto 30px;
+    
+}
+
+nav p {
+    font-weight:bold;
+}
+
+header {
+    height: calc(100vh - 30px);
+    background-image: url('C:/xampp/htdocs/projetinho/header-image.PNG');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
+    background-image: cover;
+}
